@@ -1,14 +1,11 @@
-"use client"
-import { client } from "@/lib/sanityClient";
-import { useEffect } from "react";
+import Dashboard from "@/components/Dashboard";
 
-export default function Home() {
-  useEffect(() => {
-    (async() => {
-      const data = await client.fetch(`*[_type == "product"]`)
-    })();
-  }, []);
+const page = () => {
   return (
-  <div className=""></div>
+    <div className="w-full">
+      {/* <Dashboard /> */}
+    </div>
   );
-}
+};
+
+export default page;
