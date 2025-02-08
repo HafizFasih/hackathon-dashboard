@@ -280,7 +280,6 @@ const ProductForm = ({
               type="file"
               name="image"
               className="w-full p-3 border border-gray-300 rounded-md"
-              required
             />
           </div>
         </div>
